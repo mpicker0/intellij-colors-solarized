@@ -9,7 +9,7 @@
     <option name="ANNOTATIONS_MERGED_COLOR" value="2aa198" />
     <option name="CARET_COLOR" value="dc322f" />
     <option name="CARET_ROW_COLOR" value="73642" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="2b36" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="161b" />
     <option name="GUTTER_BACKGROUND" value="73642" />
     <option name="INDENT_GUIDE" value="73642" />
     <option name="LINE_NUMBERS_COLOR" value="586e75" />
@@ -21,7 +21,7 @@
     <option name="SELECTED_INDENT_GUIDE" value="586e75" />
     <option name="SELECTED_TEARLINE_COLOR" value="657b83" />
     <option name="SELECTION_BACKGROUND" value="657b83" />
-    <option name="SELECTION_FOREGROUND" value="2b36" />
+    <option name="SELECTION_FOREGROUND" value="161b" />
     <option name="TEARLINE_COLOR" value="586e75" />
     <option name="WHITESPACES" value="586e75" />
   </colors>
@@ -665,7 +665,7 @@
     </option>
     <option name="DART.BADCHARACTER">
       <value>
-        <option name="FOREGROUND" value="2b36" />
+        <option name="FOREGROUND" value="161b" />
         <option name="BACKGROUND" value="d33682" />
       </value>
     </option>
@@ -2155,7 +2155,7 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="2b36" />
+        <option name="FOREGROUND" value="161b" />
         <option name="BACKGROUND" value="859900" />
       </value>
     </option>
@@ -3371,7 +3371,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="839496" />
-        <option name="BACKGROUND" value="2b36" />
+        <option name="BACKGROUND" value="161b" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -3481,7 +3481,7 @@
     </option>
     <option name="UNMATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="2b36" />
+        <option name="FOREGROUND" value="161b" />
         <option name="BACKGROUND" value="dc322f" />
       </value>
     </option>
