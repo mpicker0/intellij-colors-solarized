@@ -1186,7 +1186,7 @@
     <option name="HAML_FILTER_CONTENT">
       <value>
         <option name="FOREGROUND" value="93a1a1" />
-        <option name="BACKGROUND" value="73642" />
+        <option name="EFFECT_COLOR" value="73642" />
       </value>
     </option>
     <option name="HAML_ID">
