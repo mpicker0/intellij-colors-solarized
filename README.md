@@ -10,9 +10,9 @@ Johan Kaving <johan@kaving.se>
 Visit the [Solarized homepage]
 ------------------------------
 
-See the [Solarized homepage] for screenshots, 
-details and color scheme versions for Vim, Mutt, popular terminal emulators and 
-other applications. These versions can also be found in the main [Solarized repository] 
+See the [Solarized homepage] for screenshots,
+details and color scheme versions for Vim, Mutt, popular terminal emulators and
+other applications. These versions can also be found in the main [Solarized repository]
 on GitHub.
 
 Unfortunately the IntelliJ subtree in the main repository has not been updated and is out-of-sync with this
@@ -324,29 +324,43 @@ Installation
 
 2. Restart IntelliJ IDEA
 
-3. Go to `Preferences | Editor | Colors & Fonts` and select one of the new 
+3. Go to `Preferences | Editor | Colors & Fonts` and select one of the new
 color themes.
 
 ### Option 2: Manual installation
 
-1.  Copy `Solarized Dark.xml` and `Solarized Light.xml` to your IntelliJ IDEA preferences
-    color directory. The directory varies, depending on which JetBrains IDE you are using. It
-    is typically in:
+1.  Copy `Solarized Dark.icls` and `Solarized Light.icls` to your IntelliJ IDEA preferences
+    color directory. The directory varies, depending on which JetBrains IDE you are using.
 
-    *Mac OS X*
-    * `~/Library/Preferences/IntelliJIdea13/colors` (IntelliJ IDEA 13 Ultimate Edition)
-    * `~/Library/Preferences/IdeaIC13/colors` (IntelliJ IDEA 13 Community Edition),
-    * `~/Library/Preferences/WebIDE70/colors` (PHPStorm 7.0),
-    * `~/Library/Preferences/WebIDE80/colors` (PHPStorm 8.0),
-    * `~/Library/Preferences/WebStorm8/colors` (Webstorm 8.0).
+    *The colors directory may need to be created.*
 
-    *Windows*
-    * `%USERPROFILE%/.IdeaIC13/config/colors` (IntelliJ IDEA 13 Community Edition)
-        
+    It is typically in:
+
+    **Mac OS X**
+    * `~/Library/Preferences/IntelliJIdeaXX/colors` [(IntelliJ IDEA Ultimate Edition)][IntelliJ IDE settings],
+    * `~/Library/Preferences/IdeaICXX/colors` [(IntelliJ IDEA Community Edition)][IntelliJ IDE settings],
+    * `~/Library/Preferences/WebIDE70/colors` [(PHPStorm 7.0)][PHPStorm IDE settings],
+    * `~/Library/Preferences/WebIDE80/colors` [(PHPStorm 8.0)][PHPStorm IDE settings],
+    * `~/Library/Preferences/WebStorm8/colors` [(WebStorm 8.0)][WebStorm IDE settings].
+
+    **Linux**
+    * `~/.<PRODUCT><VERSION>/colors` Generic path,
+    * `~/.IdeaICXX/config/colors` [(IntelliJ IDEA)][IntelliJ IDE settings],
+    * `~/.PyCharmXX/colors` [(PyCharm)][PyCharm IDE settings].
+
+    **Windows**
+    * `%USERPROFILE%\.IdeaICXX\config\colors` [(IntelliJ IDEA Community Edition)][IntelliJ IDE settings],
+    * `%USERPROFILE%\.PyCharm40\config\colors` [(PyCharm 4.5 Community Edition)][PyCharm IDE settings].
+
 2. Restart IntelliJ IDEA
 
-3. Go to `Preferences | Editor | Colors & Fonts` and select one of the new 
+3. Go to `Preferences | Editor | Colors & Fonts` and select one of the new
 color themes.
+
+[IntelliJ IDE settings]: https://www.jetbrains.com/idea/help/project-and-ide-settings.html
+[PHPStorm IDE settings]: https://www.jetbrains.com/phpstorm/help/project-and-ide-settings.html
+[PyCharm IDE settings]: https://www.jetbrains.com/pycharm/help/project-and-ide-settings.html
+[WebStorm IDE settings]: https://www.jetbrains.com/webstorm/help/project-and-ide-settings.html
 
 Darcula
 -------
@@ -367,6 +381,6 @@ after adding the color schemes to your IntelliJ IDEA installation.
 
 Note About Committing Changes
 -----------------------------
-If you want to commit updates to the XML color scheme files, make sure to run the `buildjar.sh` script before committing to generate
-an updated `settings.jar` file as well. 
+If you want to commit updates to the ICLS color scheme files, make sure to run the `buildjar.sh` script before committing to generate
+an updated `settings.jar` file as well.
 *The script has been tested on OS X, on other operating systems you're on your own.*
